@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "orbitalcannon:block/orbital_terminal",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "orbitalcannon:block/orbital_terminal"
+    },
+    "facing=south": {
+      "model": "orbitalcannon:block/orbital_terminal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "orbitalcannon:block/orbital_terminal",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "orbitalcannon",
+	"version": "${version}",
+	"name": "Orbital Strike Cannon",
+	"description": "Call down an orbital strike: enter coordinates at an Orbital Terminal or with a Targeting Remote, watch from above as a 30-block sphere is hollowed out by a controlled TNT barrage.",
+	"authors": [
+		"itsastrocat"
+	],
+	"contact": {
+		"sources": "https://github.com/itsastrocat/OrbitalCannon"
+	},
+	"icon": "assets/orbitalcannon/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.orbitalcannon.OrbitalCannon"
+		],
+		"client": [
+			"com.orbitalcannon.client.OrbitalCannonClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

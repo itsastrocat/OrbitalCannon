@@ -1,0 +1,15 @@
+{
+	"schemaVersion": 1,
+	"id": "orbitalcannon-gametest",
+	"version": "1.0.0",
+	"name": "Orbital Strike Cannon Game Tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"com.orbitalcannon.gametest.OrbitalStrikeClientGameTest"
+		]
+	},
+	"depends": {
+		"orbitalcannon": "*"
+	}
+}

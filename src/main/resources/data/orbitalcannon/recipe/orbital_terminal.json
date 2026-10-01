@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": "minecraft:iron_block",
+    "D": "minecraft:diamond",
+    "R": "minecraft:redstone_block",
+    "S": "minecraft:nether_star",
+    "T": "minecraft:tnt"
+  },
+  "pattern": [
+    "DSD",
+    "TRT",
+    "###"
+  ],
+  "result": {
+    "id": "orbitalcannon:orbital_terminal"
+  }
+}

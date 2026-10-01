@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "orbitalcannon:block/orbital_terminal_bottom",
+    "front": "orbitalcannon:block/orbital_terminal_front",
+    "side": "orbitalcannon:block/orbital_terminal_side",
+    "top": "orbitalcannon:block/orbital_terminal_top"
+  }
+}

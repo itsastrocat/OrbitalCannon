@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "orbitalcannon:orbital_terminal"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "orbitalcannon:blocks/orbital_terminal"
+}

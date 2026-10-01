@@ -1,0 +1,25 @@
+{
+  "block.orbitalcannon.orbital_terminal": "Orbital Terminal",
+  "item.orbitalcannon.targeting_remote": "Targeting Remote",
+
+  "orbitalcannon.screen.title": "ORBITAL STRIKE TARGETING",
+  "orbitalcannon.screen.fire": "FIRE",
+  "orbitalcannon.screen.hint": "%s coordinate",
+  "orbitalcannon.screen.status.invalid": "Enter whole numbers for X, Y and Z",
+  "orbitalcannon.screen.status.height": "Y must be between %s and %s",
+  "orbitalcannon.screen.status.ready": "Target valid. Ready to fire.",
+  "orbitalcannon.screen.warning": "Blast radius: 15 blocks",
+
+  "orbitalcannon.message.target_locked": "TARGET LOCKED: %s, %s, %s. Orbital strike inbound!",
+  "orbitalcannon.message.countdown": "IMPACT IN %s",
+  "orbitalcannon.message.impact": "IMPACT",
+  "orbitalcannon.message.strike_complete": "Orbital strike complete. Returning to your position.",
+  "orbitalcannon.message.client_missing": "The Orbital Strike Cannon mod must be installed on your client to use this.",
+  "orbitalcannon.message.strike_in_progress": "You already have an orbital strike in progress.",
+  "orbitalcannon.message.no_uplink": "No active targeting uplink. Use an Orbital Terminal or Targeting Remote first.",
+  "orbitalcannon.message.uplink_lost": "Targeting uplink lost: stay at the terminal or keep the remote in hand.",
+  "orbitalcannon.message.out_of_bounds": "Target Y must be between %s and %s.",
+  "orbitalcannon.message.outside_border": "Target is outside the world border.",
+  "orbitalcannon.message.cooldown": "The orbital cannon is recharging. Ready in %s seconds.",
+  "orbitalcannon.message.cannon_busy": "The orbital cannon is busy with other strikes. Try again shortly."
+}
