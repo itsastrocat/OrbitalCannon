@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "orbitalpassthrough",
+	"version": "${version}",
+	"name": "Orbital Passthrough",
+	"description": "Runs Minecraft as a headless voxel state engine and streams its blocks to a GTA V renderer over shared memory, applying the breaks and placements that GTA V sends back.",
+	"authors": [
+		"itsastrocat"
+	],
+	"contact": {
+		"sources": "https://github.com/itsastrocat/OrbitalCannon"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.orbitalcannon.passthrough.PassthroughMod"
+		]
+	},
+	"mixins": [
+		"orbitalpassthrough.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
