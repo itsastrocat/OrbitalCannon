@@ -92,6 +92,10 @@ VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/lvp_icd.json \
   xvfb-run -a -s "-screen 0 1280x800x24" ./gradlew runClientGameTest
 ```
 
+## Orbital Passthrough (Minecraft ⇄ GTA V)
+
+A separate project in [`passthrough/`](passthrough/README.md): a Fabric mod that runs Minecraft as a headless voxel engine, and a ScriptHookV plugin that renders its blocks as physical props in GTA V and feeds shots, impacts and collisions back, over lock-free shared memory. It is independent of the Orbital Strike Cannon mod above and has its own build, tests and documentation.
+
 ## Project layout
 
 ```
